@@ -5,14 +5,10 @@
 /* 
    CounterUp
    ========================================================================== */
-    $('.counter').counterUp({
-      time: 500
-    });
 
 /* 
    MixitUp
    ========================================================================== */
-  $('#portfolio').mixItUp();
 
 /* 
    Clients Sponsor 
@@ -83,14 +79,6 @@
 /* 
    VIDEO POP-UP
    ========================================================================== */
-    $('.video-popup').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false,
-    });
 
 /* 
    Back Top Link
@@ -114,10 +102,8 @@
     })
 
 /* 
-   One Page Navigation & wow js
+   One Page Navigation
    ========================================================================== */
-    //Initiat WOW JS
-    new WOW().init();
 
     // one page navigation 
     $('.main-navigation').onePageNav({
